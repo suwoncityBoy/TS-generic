@@ -7,6 +7,6 @@ class PersonExtends <T extends string | number>{ // string ,number만 가능
 }
 
 
-// new PersonExtends(true); // 에러
-new PersonExtends(39); // 에러
+// new PersonExtends(true); // error
+new PersonExtends(39); // error
 new PersonExtends("Mark");
